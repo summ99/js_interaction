@@ -4,6 +4,9 @@ body{
   color:white;
   background-color:lightpink;
 }
+#reminder{
+  font-size:25px;
+}
 #fortune-output{
   text-decoration: underline;
 }

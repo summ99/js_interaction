@@ -1,9 +1,21 @@
-html,body{
+body{
   font-family:sans-serif;
+  font-size: 45px;
   color:white;
   background-color:lightpink;
 }
 #fortune-output{
-  background-color: white;
-  color:lightpink;
+  text-decoration: underline;
+}
+#half-button, #fortune-button{
+  color: black;
+  font-size: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+#half-button:hover, #fortune-button:hover{
+  background-color: black;
+  color: white;
 }
